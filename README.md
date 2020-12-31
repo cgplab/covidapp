@@ -13,7 +13,7 @@ install.packages("shiny")
 then, you can launch the Shiny web application using
 
 ``` r
-shiny::runGitHub("cgplab/covidapp")
+shiny::runGitHub("cgplab/covidapp", ref = "main")
 ```
 
 ## Citation
